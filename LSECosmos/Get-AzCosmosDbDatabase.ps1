@@ -31,6 +31,7 @@ function Get-AzCosmosDbDatabase {
     [CmdletBinding()]
     param (
         [parameter(Mandatory, ValueFromPipelineByPropertyName)]
+        [Alias('Name')]
         [string]$AccountName,
 
         [parameter(Mandatory, ValueFromPipelineByPropertyName)]
