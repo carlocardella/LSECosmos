@@ -47,6 +47,11 @@
             "type": "PowerShell",
             "request": "attach",
             "processId": "current"
+        },
+        {
+            "name": "Local Process with Kubernetes",
+            "type": "local-process-with-kubernetes.configuration",
+            "request": "launch"
         }
     ]
 }
